@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <title>YEA-Müzik</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">YEA-Müzik</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto"> <!--burada  başlıkla işte ürünlerin olduğu yeri uzaklaştırmak içinn "ml-auto " kullanılır-->
+          <a class="nav-link active" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="musicaletanasayfa.html">Ürünler</a>
+          <a class="nav-link" href="sepet.html">Sepetiniz</a>
+          <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+          <a class="nav-link" href="iletisim.html">İletişim</a>
+        </div>
+      </div>
+    </nav>
+      <!-- burası büyük resim kısmı  -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/id/1/1600/600" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/7/1600/600" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/15/1600/600" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+      <!-- büyük resim bitti -->
+
+      <!-- ürünler kısmı başlangıç -->
+      <hr>
+            <h5 class="col-sm-12"> En Çok Satanlar </h5>
+                <div class="row mt-3">
+                    <div class="col-sm-4 "> 
+                        <div class="card">
+                            <img src="https://cdn.shopify.com/s/files/1/2966/4646/products/FiddlermanApprenticeViolin-4_206bf17f-4ddc-41ea-ad4e-906009e44da9_grande.jpg?v=1642619659" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"> 4/4 Keman</h5>
+                              <p class="card-text">Ürünü İncelemek İçin Tıklayın</p>
+                              <a href="keman.html" class="btn btn-primary">İncele</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <div class="card">
+                                <img src="https://media.mydukkan.com/image/17341/thmb_900x900_Stagg.StaggS250.BKSiyah25747.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elektro Gitar</h5>
+                                    <p class="card-text">Ürünü İncelemek İçin Tıklayın</p>
+                                    <a href="elektrogitar.html" class="btn btn-primary">İncele</a>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ultra lüks Piyano</h5>
+                                        <p class="card-text">Ürünü İncelemek İçin Tıklayın</p>
+                                        <a href="piyano.html" class="btn btn-primary">İncele</a>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                    
+                </div>
+<!-- container - start -->
+<div class="container mt-5">
+    <div class="row"><!-- row - start -->
+          <div class="col-sm-6"><!-- hakkımızda - start -->
+            <img class="w-100 img-thumbnail" src="https://picsum.photos/id/77/500/300">
+          </div>
+          <div class="col-sm-6">
+            <h2>Hakkımızda</h2>
+            <p>Yaklaşık 2 yıldır bu sektörde bulunmaktayız ve ekibimizle beraber sizlere</p>
+            <p>En kaliteli ürünleri kulağınızın pasını silecek ürünleri size ulaştırmaktır en öncelikli vazifemiz</p>
+            
+          </div><!-- hakkımızda - end -->
+    </div>
+</div>  <!-- row - end -->
+        <!-- FOOTER BAŞLANGIÇ -->
+<div class="bg-dark text-light"> <!-- div i alt tarfın 100% nü kaplaması için açtım-->
+    <footer class="container py-5 mt-5 ">
+      <div class="row">
+        <div class="col-12 col-md">
+            <h5>YEA-Müzik</h5>
+          <small class="d-block mb-3 text-muted">© 2017-2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Random feature</a></li>
+            <li><a class="text-muted" href="#">Team feature</a></li>
+            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Resource</a></li>
+            <li><a class="text-muted" href="#">Resource name</a></li>
+            <li><a class="text-muted" href="#">Another resource</a></li>
+            <li><a class="text-muted" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Business</a></li>
+            <li><a class="text-muted" href="#">Education</a></li>
+            <li><a class="text-muted" href="#">Government</a></li>
+            <li><a class="text-muted" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
